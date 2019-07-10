@@ -27,27 +27,29 @@
     border: 1mm solid darkgreen;
   }
   #summary {
-    color: darkviolet;
+    color: rgb(224, 127, 10);
     font-size: 60px;
     text-align: center;
     line-height: 100px;
     border: 3mm ridge rgba(50, 220, 192, 0.6);
     border-radius: 7px;
     }
-  h3 {color: rgb(42, 19, 248);
+  h3 {
+    color: rgb(224, 127, 10);
     text-align: center;
     text-emphasis: bold;
   
   }
   /* introduction */
   h2 {
-    color: rgb(18, 18, 104);
+    color: rgb(224, 127, 10);
     text-align: center;
   }
   /* location information */
   
   .business {
-    border: 4mm ridge rgb(170, 50, 220, .6);
+    border: 4mm ridge rgb(224, 127, 10);
+    color: rgb(224, 127, 10);
     margin: 20px;
     padding: 20px 20px 20px 20px;
     
