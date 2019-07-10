@@ -24,7 +24,7 @@ body {
   td {
     border: 1mm solid darkgreen;
   }
-  #famousPat {
+  #summary {
     color: darkviolet;
     font-size: 60px;
     text-align: center;
@@ -44,14 +44,14 @@ body {
   }
   /* location information */
   
-  .boxed {
+  .business {
     border: 4mm ridge rgb(170, 50, 220, .6);
     margin: 20px;
     padding: 20px 20px 20px 20px;
     
   }
   
-  .locationName {
+  #intro {
   font-size: 30px;
   text-shadow: 1px 1px 1px #000;
   padding-bottom: 10px;
@@ -102,10 +102,10 @@ body {
   
     /* ERD info */
   
-   #ERD {
+   /* #ERD {
       height: 200px;
       float: left;
-  } */
+  } */ */
    #shirtSell {
     float: right;
     display: block;
