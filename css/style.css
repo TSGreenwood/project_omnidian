@@ -1,7 +1,9 @@
-body {
+* {
     font-family: 'Times New Roman', Times, serif;
+    color: rgb(224, 127, 10);
     /* font-size: 150%; */
-    background-color: palegreen; }
+    background-color: darkblue; 
+    }
   
   
   img {
@@ -24,34 +26,36 @@ body {
   td {
     border: 1mm solid darkgreen;
   }
-  #famousPat {
-    color: darkviolet;
+  #summary {
+    color: rgb(224, 127, 10);
     font-size: 60px;
     text-align: center;
     line-height: 100px;
     border: 3mm ridge rgba(50, 220, 192, 0.6);
     border-radius: 7px;
     }
-  h3 {color: rgb(42, 19, 248);
+  h3 {
+    color: rgb(224, 127, 10);
     text-align: center;
     text-emphasis: bold;
   
   }
   /* introduction */
   h2 {
-    color: rgb(18, 18, 104);
+    color: rgb(224, 127, 10);
     text-align: center;
   }
   /* location information */
   
-  .boxed {
-    border: 4mm ridge rgb(170, 50, 220, .6);
+  .business {
+    border: 4mm ridge rgb(224, 127, 10);
+    color: rgb(224, 127, 10);
     margin: 20px;
     padding: 20px 20px 20px 20px;
     
   }
   
-  .locationName {
+  #intro {
   font-size: 30px;
   text-shadow: 1px 1px 1px #000;
   padding-bottom: 10px;
@@ -102,10 +106,10 @@ body {
   
     /* ERD info */
   
-   #ERD {
+   /* #ERD {
       height: 200px;
       float: left;
-  } */
+  } */ */
    #shirtSell {
     float: right;
     display: block;
