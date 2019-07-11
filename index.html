@@ -9,7 +9,32 @@
   <link rel="stylesheet" type="text/css" media="screen" href="./css/reset.css" />
   <link rel="stylesheet" type='text/css' href="./css/style.css"/>
 
-
+  <style>
+    .accordion {
+      background-color: #eee;
+      color: #444;
+      cursor: pointer;
+      padding: 18px;
+      width: 100%;
+      border: none;
+      text-align: left;
+      outline: none;
+      font-size: 15px;
+      transition: 0.4s;
+    }
+    
+    .active, .accordion:hover {
+      background-color: #ccc;
+    }
+    
+    .panel {
+      padding: 0 18px;
+      background-color: white;
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.2s ease-out;
+    }
+    </style>
   
   
 </head>
@@ -21,16 +46,29 @@
 <a href="https://github.com/TSGreenwood/project_omnidian">GitHub Repository</a>
 </div>
         
+<h2>Animated Accordion</h2>
+<p>Business Understanding.</p>
+<button class="accordion">Section 1</button>
+<div class="panel">
+  <p>Omidian monitors and insures solar panel performance for residents and businesses across the company. They model expected output for each asset  (solar panel generation site) and compare it with the measured output. If a panel underperforms they send one of their service partners to address the issue. </p>
+</div>
 
-<div class="business">
+<!-- <div class="business">
 <h2 id="intro"> Introduction </h2>
-    <h3> Objective </h3>
-        <h4>Create a machine learning model that can, based on recorded telemetry,<br> categorise assets into groups indicating potential service requirements.<br>  Validate the results of this model’s categorisation with training and testing data.<br>  Build public-facing website which protects Omnidian’s proprietary information, as well as the personal information of their clients.<br>  Moreover, I intend to communicate the process in detail to Omnidian for reproducibility and potential business use.<br>  While I am not currently an employee, my work does represent their brand.<br>  I will review text information with them to ensure the writing is an accurate and positive representation of their work.<br>  Omnidian is hiring for their first Data Scientist.<br>  They have had over 200 applicants, most of which have more education and experience than I.<br>  I plan to use the supportive environment here at Flatiron School to gather<br>  deep understanding of their data environment, their goals for the future, the up-to-date methodologies, the interpersonal rapport and the<br>  concrete business results that will give me an inside track to the job.</h4>
+    <h3><ul class="collapsible popout"></ul> Objective </h3> -->
+        <!-- <h4>Create a machine learning model that can, based on recorded telemetry,<br> 
+          categorise assets into groups indicating potential service requirements.<br>  Validate the results of this model’s categorisation with training and testing data.<br>  Build public-facing website which protects Omnidian’s proprietary information, as well as the personal information of their clients.<br>  Moreover, I intend to communicate the process in detail to Omnidian for reproducibility and potential business use.<br>  While I am not currently an employee, my work does represent their brand.<br>  I will review text information with them to ensure the writing is an accurate and positive representation of their work.<br>  Omnidian is hiring for their first Data Scientist.<br>  They have had over 200 applicants, most of which have more education and experience than I.<br>  I plan to use the supportive environment here at Flatiron School to gather<br>  deep understanding of their data environment, their goals for the future, the up-to-date methodologies, the interpersonal rapport and the<br>  concrete business results that will give me an inside track to the job.</h4> -->
 
-    <div class="locationName">We have MERCHANDISE!
+    <div class="locationName">Business Understanding Omnidian monitors solar panel performance across the country,<br>
+       generally using data gathered from the transformers on site. This yields time series data, which is compared with<br>
+        expected output (modeled from location, weather, etc.). When there is a large difference between the two,<br>
+         Omnidian dispatches one of its contracted companies to go fix it. Different problems may call for different fixes,<br>
+          and different contractors may have different specialties. Would an electrician be better equipped to handle this,<br>
+           or would a solar panel technician? On the other hand, this may be something the customer is responsible for; they may just need to clean their roof.<br>
+            I built a model to categorize common problems to help inform the decision making process. While there is no substitute for good judgement, good statistical models can be very helpful.
     </div> 
 
-    <div><text class="description"> That's right, you can keep the memory alive long after you eat all the cookies. Stop by any of our locations to check out the nonperishables. Online order capabilities coming soon!</text>
+    <div> <ul class="collapsible popout"></ul><text class="description"> That's right, you can keep the memory alive long after you eat all the cookies. Stop by any of our locations to check out the nonperishables. Online order capabilities coming soon!</text>
     
 </div>
 </body>
